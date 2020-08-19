@@ -9,40 +9,39 @@
 
 - Array Methods - demonstrate ability to use `.forEach` `.map` `.reduce` `.filter` and describe their use cases
 - Callbacks - demonstrate the proper use a of a callback function by passing a function to another function as a parameter
-  
+	
 ## Introduction
 
 In this challenge, you will work with a data set summarizing every World Cup game from 1930 to 2014. As web developers, you will often work with JSON data to interact with servers, summarize data, get images to your page, and more. It is crucial that you cultivate a thorough understanding of data structures and methods early in your career.
 
-The data set you are given (loaded in at the top of `index.js`) contains a report for every game played at every stage in the FIFA World Cup tournament since 1930. Each report is an object with many keys, including `Year`,`Stage`, `Stadium`,  `Home Team Name`,`Home Team Goals`, `Away Team Name`, and `Away Team Goals`. There is a plethora of other data in this set as well, but we won't spend time working with it. You can read more about the data [here](https://www.kaggle.com/abecklas/fifa-world-cup) or look at the sample object below if you are interested!
-
+The data set you are given (loaded in at the top of `index.js`) contains a report for every game played at every stage in the FIFA World Cup tournament since 1930. Each report is an object with many keys, including `Year`,`Stage`, `Stadium`, `Home Team Name`, `Home Team Goals`, `Away Team Name`, and `Away Team Goals`. There is a plethora of other data in this set as well, but we won't spend time working with it. You can read more about the data [here](https://www.kaggle.com/abecklas/fifa-world-cup) or look at the sample object below if you are interested!
 Your goal today will be to manipulate the data using array methods and callbacks to create interesting statistics.
 
 ### Sample Data
 
 ```js
-  {
-      "Year": 1930,
-      "Datetime": "13 Jul 1930 - 15:00",
-      "Stage": "Group 1",
-      "Stadium": "Pocitos",
-      "City": "Montevideo",
-      "Home Team Name": "France",
-      "Home Team Goals": 4,
-      "Away Team Goals": 1,
-      "Away Team Name": "Mexico",
-      "Win conditions": "",
-      "Attendance": 4444,
-      "Half-time Home Goals": 3,
-      "Half-time Away Goals": 0,
-      "Referee": "LOMBARDI Domingo (URU)",
-      "Assistant 1": "CRISTOPHE Henry (BEL)",
-      "Assistant 2": "REGO Gilberto (BRA)",
-      "RoundID": 201,
-      "MatchID": 1096,
-      "Home Team Initials": "FRA",
-      "Away Team Initials": "MEX"
-    },
+{
+	"Year": 1930,
+	"Datetime": "13 Jul 1930 - 15:00",
+	"Stage": "Group 1",
+	"Stadium": "Pocitos",
+	"City": "Montevideo",
+	"Home Team Name": "France",
+	"Home Team Goals": 4,
+	"Away Team Goals": 1,
+	"Away Team Name": "Mexico",
+	"Win conditions": "",
+	"Attendance": 4444,
+	"Half-time Home Goals": 3,
+	"Half-time Away Goals": 0,
+	"Referee": "LOMBARDI Domingo (URU)",
+	"Assistant 1": "CRISTOPHE Henry (BEL)",
+	"Assistant 2": "REGO Gilberto (BRA)",
+	"RoundID": 201,
+	"MatchID": 1096,
+	"Home Team Initials": "FRA",
+	"Away Team Initials": "MEX"
+	},
 ```
 
 ## Instructions
